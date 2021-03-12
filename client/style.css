@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 700px 1fr;
+  background-color: lightgray;
+}
+
+#app {
+  grid-column-start: 2;
+  justify-content: center;
+}
+
+#app h1 {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#forms {
+  padding-top: 30px;
+  justify-content: center;
+}
+
+#b1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#b2 {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#b1 button {
+  font-size: 16px;
+  height: 40px;
+  width: 100px;
+}
+
+#b2 button {
+  font-size: 16px;
+  height: 40px;
+  width: 100px;
+}
+
+
+#forms {
+  text-align: center;
+  font-size: 16px;
+}
+
+#p2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#p {
+  text-align: center;
+}
+
+#pp {
+  text-align: center;
+}
+
+#p:nth-of-type(1) {
+  text-align: center;
+  color: lightskyblue;
+}
+
+#p:nth-of-type(2) {
+  text-align: center;
+  color: salmon;
+}
+
+#p:nth-of-type(3) {
+  text-align: center;
+  color: palegreen;
+}
+
+#p:nth-of-type(4) {
+  text-align: center;
+  color: plum;
+}
+
+#p:nth-of-type(5) {
+  text-align: center;
+  color: wheat;
+}
+
+input {
+  text-align: center;
+  height: 20px;
+}
+
+.intake-list {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.solo {
+  display:flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: azure;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  box-shadow: 3px 3px 3px grey;
+}
+
+#top {
+  text-align: center;
+  background-color: azure;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 3px 3px 3px grey;
+  border-radius: 10px;
+}
+
+#error {
+  text-align: center;
+  background-color: azure;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 3px grey;
+  border-radius: 10px
+}
+
+#intro {
+  background-color: dimgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 3px grey;
+  border-radius: 10px
+}
+
+.blue{
+  background-color: lightskyblue;
+}
+
+.orange{
+  background-color: salmon;
+}
+
+.green {
+  background-color: palegreen;
+}
+
+.purple {
+  background-color: plum;
+}
+
+.brown {
+  background-color: wheat;
+}
